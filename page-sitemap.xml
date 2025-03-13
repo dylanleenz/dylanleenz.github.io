@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/</loc>
+		<loc>./index.html</loc>
 		<lastmod>2024-08-11T23:37:17+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Stationary.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Stationary.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/08/Access-Rebrand-Launch-Poster-2.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/08/Access-Rebrand-Launch-Poster-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Desktop-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Desktop-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Oko-Aio.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Oko-Aio.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Sport-Street-Poster.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Sport-Street-Poster.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Banner-mockup-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Banner-mockup-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Concepts.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Concepts.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Maia-Iphone.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Maia-Iphone.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/Frame-Penguin.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/Frame-Penguin.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/sports-graphics/</loc>
+		<loc>./sports-graphics/index.html</loc>
 		<lastmod>2024-03-21T03:12:07+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i1.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Posters-3-1024x768.png?ssl=1</image:loc>
@@ -54,7 +54,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/house-of-dumplings/</loc>
+		<loc>./house-of-dumplings/index.html</loc>
 		<lastmod>2024-03-21T03:13:21+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i1.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/HOD-Suppliers-1024x768.png?ssl=1</image:loc>
@@ -82,7 +82,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/sinbads-kitchen/</loc>
+		<loc>./sinbads-kitchen/index.html</loc>
 		<lastmod>2024-03-21T03:15:11+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i1.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.png?ssl=1</image:loc>
@@ -98,7 +98,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/maia/</loc>
+		<loc>./maia/index.html</loc>
 		<lastmod>2024-03-21T03:16:19+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i2.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Maia-Logo-1024x724.png?ssl=1</image:loc>
@@ -108,7 +108,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/illustrations/</loc>
+		<loc>./illustrations/index.html</loc>
 		<lastmod>2024-04-25T04:57:44+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i1.wp.com/dylanlee.co.nz/wp-content/uploads/2024/04/Illustration-Grid-1-Updated-1024x768.png?ssl=1</image:loc>
@@ -121,7 +121,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/access-community-health/</loc>
+		<loc>./access-community-health/index.html</loc>
 		<lastmod>2024-04-25T05:28:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i2.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Metlife-Brochure_Mockup_1-1024x768.png?ssl=1</image:loc>
@@ -203,7 +203,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/oko-aio/</loc>
+		<loc>./oko-aio/index.html</loc>
 		<lastmod>2024-07-27T01:15:01+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i0.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Oko-Aio-1024x768.png?ssl=1</image:loc>
@@ -216,7 +216,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/beads-by-besties/</loc>
+		<loc>./beads-by-besties/index.html</loc>
 		<lastmod>2024-07-27T01:16:10+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i0.wp.com/dylanlee.co.nz/wp-content/uploads/2024/03/Grid.png?ssl=1</image:loc>
@@ -235,14 +235,14 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/about/</loc>
+		<loc>./about/index.html</loc>
 		<lastmod>2024-08-11T09:31:05+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2024/03/D.png</image:loc>
+			<image:loc>./wp-content/uploads/2024/03/D.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/access-rebrand/</loc>
+		<loc>./access-rebrand/index.html</loc>
 		<lastmod>2024-12-24T01:26:10+00:00</lastmod>
 		<image:image>
 			<image:loc>https://i0.wp.com/dylanlee.co.nz/wp-content/uploads/2024/08/Access-Rebrand-Launch-Poster-1024x681.png?ssl=1</image:loc>
