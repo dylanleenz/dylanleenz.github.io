@@ -248,11 +248,11 @@
     }
   </style>
   <link rel="stylesheet" id="jetpack-block-tiled-gallery-css"
-    href="./../wp-content/plugins/jetpack/_inc/blocks/tiled-gallery/view.css?minify=false#038;ver=14.3" media="all">
+    href="/wp-content/plugins/jetpack/_inc/blocks/tiled-gallery/view.css?minify=false#038;ver=14.3" media="all">
   <link rel="stylesheet" id="jetpack-carousel-swiper-css-css"
-    href="./../wp-content/plugins/jetpack/modules/carousel/swiper-bundle.css?ver=14.3" media="all">
+    href="/wp-content/plugins/jetpack/modules/carousel/swiper-bundle.css?ver=14.3" media="all">
   <link rel="stylesheet" id="jetpack-carousel-css"
-    href="./../wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.css?ver=14.3" media="all">
+    href="/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.css?ver=14.3" media="all">
   <style id="wp-block-post-navigation-link-inline-css">
     .wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous {
       display: inline-block;
@@ -3665,10 +3665,10 @@
     }
   </style>
   <script
-    id="jetpack-blocks-assets-base-url-js-before">var Jetpack_Block_Assets_Base_Url = ".//wp-content/plugins/jetpack/_inc/blocks/";</script>
+    id="jetpack-blocks-assets-base-url-js-before">var Jetpack_Block_Assets_Base_Url = "/wp-content/plugins/jetpack/_inc/blocks/";</script>
   <script src="./../wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
   <script src="./../wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
-  <script src="./../wp-content/plugins/jetpack/_inc/blocks/tiled-gallery/view.js?minify=false&amp;ver=14.3"
+  <script src="/wp-content/plugins/jetpack/_inc/blocks/tiled-gallery/view.js?minify=false&amp;ver=14.3"
     id="jetpack-block-tiled-gallery-js"></script>
   <script
     id="nfd-wonder-blocks-utilities-js-after">(() => { var l = class { constructor({ clientId: t, ...n } = {}) { this.options = { activeClass: "nfd-wb-animated-in", root: null, rootMargin: "0px", threshold: 0, ...n } } observeElements(t, n = null, e = !1) { if (!("IntersectionObserver" in window) || !t?.length || document.documentElement.classList.contains("block-editor-block-preview__content-iframe")) return; function a(r, i) { this._mutationCallback(r, i, n) } let o = new IntersectionObserver(this._handleIntersection.bind(this), this.options), d = new MutationObserver(a.bind(this)), u = new MutationObserver(this._handleClassMutation.bind(this)); t.forEach(r => { let i = r; r.classList.contains("nfd-wb-reveal-right") && (i = r.parentElement), o.observe(i), e && (u.observe(i, { attributes: !0, attributeFilter: ["class"] }), d.observe(i, { attributes: !0, attributeFilter: ["class"] })) }) } _handleIntersection(t, n) { t.forEach(e => { e.isIntersecting && (e.target.classList.add(this.options.activeClass), e.target.querySelectorAll(".nfd-wb-animate").forEach(a => { a.classList.add(this.options.activeClass) }), n.unobserve(e.target)) }) } _handleClassMutation(t) { t.forEach(n => { if (n?.type === "attributes") { let e = n.target; e.classList.contains("nfd-wb-animated-in") || e.classList.add("nfd-wb-animated-in") } }) } _mutationCallback(t, n, e = null) { t.forEach(a => { if (a?.type === "attributes") { let o = a.target; e && e === o.getAttribute("data-block") && (o.getAttribute("data-replay-animation") === null && (o.setAttribute("data-replay-animation", !0), requestAnimationFrame(() => { o.removeAttribute("data-replay-animation") })), n.disconnect()) } }) } }; document.addEventListener("DOMContentLoaded", () => { c() }); document.addEventListener("wonder-blocks/toolbar-button-added", () => { c() }); document.addEventListener("wonder-blocks/animation-changed", s => { let t = s?.detail?.clientId; c(t) }); document.addEventListener("wonder-blocks/block-order-changed", () => { c() }); window.onload = function () { c() }; function c(s = null) { let t = document.body.classList.contains("block-editor-page") || !!s || document.body.classList.contains("block-editor-iframe__body"), n = t ? document.querySelector(".interface-interface-skeleton__content") : null, e = new l({ root: n, threshold: 0 }); requestAnimationFrame(() => { let a = Array.from(document.getElementsByClassName("nfd-wb-animate")); e.observeElements(a, s, t) }) } })();</script>
@@ -3700,7 +3700,7 @@
       font-style: normal;
       font-weight: 300 900;
       font-display: fallback;
-      src: url('./../wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');
+      src: url('/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');
       font-stretch: normal;
     }
 
@@ -3709,7 +3709,7 @@
       font-style: normal;
       font-weight: 400;
       font-display: fallback;
-      src: url('./../wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');
+      src: url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');
     }
 
     @font-face {
@@ -3717,7 +3717,7 @@
       font-style: italic;
       font-weight: 400;
       font-display: fallback;
-      src: url('./../wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');
+      src: url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');
     }
 
     @font-face {
@@ -3725,7 +3725,7 @@
       font-style: normal;
       font-weight: 700;
       font-display: fallback;
-      src: url('./../wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');
+      src: url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');
     }
   </style>
   <link rel="icon" href="/wp-content/uploads/2024/03/cropped-D-Logo-White-02.webp?fit=32%2C32&#038;ssl=1" sizes="32x32">
@@ -3844,7 +3844,7 @@
                     data-large-file="/wp-content/uploads/2024/03/Brand-Guidelines-1.webp?fit=1024%2C768&amp;ssl=1"
                     srcset="/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=600&#038;ssl=1 600w,/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=900&#038;ssl=1 900w,/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=1200&#038;ssl=1 1200w,/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=1500&#038;ssl=1 1500w,/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=1800&#038;ssl=1 1800w,/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?strip=info&#038;w=2000&#038;ssl=1 2000w"
                     alt="" data-height="3000" data-id="161" data-link=".//?attachment_id=161"
-                    data-url=".//wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp" data-width="4000"
+                    data-url="/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp" data-width="4000"
                     src="/wp-content/uploads/2024/03/Brand-Guidelines-1-1024x768.webp?ssl=1"
                     data-amp-layout="responsive"></figure>
               </div>
@@ -3859,7 +3859,7 @@
                     data-large-file="/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png.webp?fit=1024%2C768&amp;ssl=1"
                     srcset="/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=600&#038;ssl=1 600w,/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=900&#038;ssl=1 900w,/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=1200&#038;ssl=1 1200w,/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=1500&#038;ssl=1 1500w,/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=1800&#038;ssl=1 1800w,/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?strip=info&#038;w=2000&#038;ssl=1 2000w"
                     alt="" data-height="2250" data-id="162" data-link=".//?attachment_id=162"
-                    data-url=".//wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp" data-width="3000"
+                    data-url="/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp" data-width="3000"
                     src="/wp-content/uploads/2024/03/Sinbad-paper-Mockup-png-1024x768.webp?ssl=1"
                     data-amp-layout="responsive"></figure>
                 <figure class="tiled-gallery__item"><img decoding="async" data-attachment-id="163"
@@ -3872,7 +3872,7 @@
                     data-large-file="/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2.webp?fit=1024%2C768&amp;ssl=1"
                     srcset="/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=600&#038;ssl=1 600w,/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=900&#038;ssl=1 900w,/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=1200&#038;ssl=1 1200w,/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=1500&#038;ssl=1 1500w,/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=1800&#038;ssl=1 1800w,/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?strip=info&#038;w=2000&#038;ssl=1 2000w"
                     alt="" data-height="2250" data-id="163" data-link=".//?attachment_id=163"
-                    data-url=".//wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp" data-width="3000"
+                    data-url="/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp" data-width="3000"
                     src="/wp-content/uploads/2024/03/Sinbad-sign-Mockup-2-1024x768.webp?ssl=1"
                     data-amp-layout="responsive"></figure>
               </div>
@@ -3890,7 +3890,7 @@
                     data-large-file="/wp-content/uploads/2024/03/Concepts.webp?fit=1024%2C768&amp;ssl=1"
                     srcset="/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=600&#038;ssl=1 600w,/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=900&#038;ssl=1 900w,/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=1200&#038;ssl=1 1200w,/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=1500&#038;ssl=1 1500w,/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=1800&#038;ssl=1 1800w,/wp-content/uploads/2024/03/Concepts-1024x768.webp?strip=info&#038;w=2000&#038;ssl=1 2000w"
                     alt="" data-height="2250" data-id="48" data-link=".//home/concepts/"
-                    data-url=".//wp-content/uploads/2024/03/Concepts-1024x768.webp" data-width="3000"
+                    data-url="/wp-content/uploads/2024/03/Concepts-1024x768.webp" data-width="3000"
                     src="/wp-content/uploads/2024/03/Concepts-1024x768.webp?ssl=1" data-amp-layout="responsive">
                 </figure>
               </div>
@@ -4117,10 +4117,10 @@
 
   </div>
   <script id="jetpack-carousel-js-extra">
-    var jetpackSwiperLibraryPath = { "url": ".\/\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js" };
+    var jetpackSwiperLibraryPath = { "url": "\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js" };
     var jetpackCarouselStrings = { "widths": [370, 700, 1000, 1200, 1400, 2000], "is_logged_in": "", "lang": "en", "ajaxurl": ".\/\/wp-admin\/admin-ajax.php", "nonce": "c87727dbf6", "display_exif": "1", "display_comments": "0", "single_image_gallery": "1", "single_image_gallery_media_file": "", "background_color": "white", "comment": "Comment", "post_comment": "Post Comment", "write_comment": "Write a Comment...", "loading_comments": "Loading Comments...", "image_label": "Open image in full-screen.", "download_original": "View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">×<\/span>{1}<\/span>", "no_comment_text": "Please be sure to submit some text with your comment.", "no_comment_email": "Please provide an email address to comment.", "no_comment_author": "Please provide your name to comment.", "comment_post_error": "Sorry, but there was an error posting your comment. Please try again later.", "comment_approved": "Your comment was approved.", "comment_unapproved": "Your comment is in moderation.", "camera": "Camera", "aperture": "Aperture", "shutter_speed": "Shutter Speed", "focal_length": "Focal Length", "copyright": "Copyright", "comment_registration": "0", "require_name_email": "1", "login_url": ".\/\/wp-login.php?redirect_to=.%2F%2Fsinbads-kitchen%2F", "blog_id": "1", "meta_data": ["camera", "aperture", "shutter_speed", "focal_length", "copyright"] };
   </script>
-  <script src="./../wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=14.3"
+  <script src="/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=14.3"
     id="jetpack-carousel-js"></script>
   <script id="wp-block-template-skip-link-js-after">(function () {
       var skipLinkTarget = document.querySelector('main'),
